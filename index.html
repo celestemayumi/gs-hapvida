@@ -111,12 +111,28 @@
         <!-- Icon Boxes -->
         <div class="icon-boxes">
           <div class="service">
-            <button>
+            <button id="openTriagem">
               <i class="fa-solid fa-file-medical"></i>
               <p class="title">Triagem</p>
               <br />
               <p>Passe por uma triagem antes mesmo de chegar ao hospital.</p>
             </button>
+            <dialog class="triagem" id="modalTriagem">
+              <title>Sistema de pré-triagem</title>
+              <p>Pré-triagem</p>
+                <br>
+                <label for="sintomas">Sintomas:</label>
+                <br>
+                <textarea  name="" id="sintomas" cols="100" rows="3"></textarea>
+                <br>
+                <label for="medicamentos">Tomou algum medicamento?</label>
+                <br>
+                <textarea name="" id="medicamentos" cols="100" rows="3"></textarea>
+                <br>
+                <button id="closeTriagem">
+                  Enviar
+                </button>
+            </dialog>
           </div>
           <div class="calendar">
             <button id="calendarBtn">
@@ -125,13 +141,6 @@
               <br />
               <p>Veja quando sao suas proximas consultas e eventos.</p>
             </button>
-            <dialog class="calendarCont">
-              <p>
-                dia mes ano <br />
-                pipipopo
-              </p>
-              <button class="closeCalendar">X</button>
-            </dialog>
           </div>
           <div class="notes">
             <button>
