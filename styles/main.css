@@ -13,3 +13,7 @@
     border: 0;
     font-family: 'DM Sans', sans-serif;
 }
+
+main {
+    display: flex;
+}
