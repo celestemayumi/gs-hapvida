@@ -1,17 +1,17 @@
-.top-boxes{
+.top-boxes {
     display: flex;
     width: 100%
 }
 
 .profile {
-    width: 60% ;
+    width: 60%;
     height: 10em;
     margin-right: 1em;
     border-radius: 15px;
     border: 5px solid #0063AF;
     color: #0063AF;
     border-radius: 15px;
-    box-shadow: 2px 2px 4px 0px rgba(191,191,191,1);
+    box-shadow: 2px 2px 4px 0px rgba(191, 191, 191, 1);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -38,16 +38,16 @@
     margin: 0.4em;
 }
 
-.profile ul{
+.profile ul {
     list-style: none;
 }
 
 .emergency {
-    width: 40% ;
+    width: 40%;
     margin-left: 1em;
     border: 1px solid rgb(120, 120, 120);
     border-radius: 15px;
-    box-shadow: 2px 2px 4px 0px rgba(191,191,191,1);
+    box-shadow: 2px 2px 4px 0px rgba(191, 191, 191, 1);
     background-color: #F17E01;
     color: white;
     font-size: 1.5em;

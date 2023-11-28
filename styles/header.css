@@ -19,13 +19,13 @@ header {
 header i {
     margin: 1.5em 0.5em;
     font-size: 17px;
-    color: #ffffff ;
+    color: #ffffff;
 }
 
 .header-box {
     display: flex;
     padding: 1em;
-    justify-content:space-between
+    justify-content: space-between
 }
 
 
@@ -33,6 +33,6 @@ header i {
     background-color: #E94D10;
     height: 1.5em;
     display: block;
-    box-shadow: 0px 3px 5px 0px rgba(102,102,102,1);
+    box-shadow: 0px 3px 5px 0px rgba(102, 102, 102, 1);
     position: relative;
 }
