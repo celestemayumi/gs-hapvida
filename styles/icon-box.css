@@ -1,0 +1,15 @@
+.icon-boxes {
+    display: flex;
+    width: 100%;
+    margin-top: 2em;
+    justify-content: space-evenly;
+}
+
+.icon-boxes button {
+    width: 14em;
+    height: 10em;
+    border-radius: 15px;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 0px rgba(191,191,191,1);
+}
