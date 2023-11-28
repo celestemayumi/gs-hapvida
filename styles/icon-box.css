@@ -2,16 +2,31 @@
     display: flex;
     width: 100%;
     margin-top: 2em;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .icon-boxes button {
-    width: 19em;
-    height: 10em;
+    width: 18em;
+    height:14em;
     border-radius: 15px;
     border: 1px solid rgb(120, 120, 120);
     border-radius: 15px;
     box-shadow: 2px 2px 4px 0px rgba(191,191,191,1);
+    background-color: #0063AF;
+    color: white;
+    padding: 2em;
+}
+
+.icon-boxes i {
+    font-size: 3em;
+}
+
+p.title {
+    font-size: 1.5em;
+}
+
+.icon-boxes p {
+    font-weight: 300;
 }
 
 .icon-boxes p {

@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    background: #0063AF;
+    width: max-content;
 }
 
 .menu button {

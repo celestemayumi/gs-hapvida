@@ -15,4 +15,13 @@
     border: 1px solid rgb(120, 120, 120);
     border-radius: 15px;
     box-shadow: 2px 2px 4px 0px rgba(191,191,191,1);
+    background-color: #F17E01;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.emergency p {
+    font-weight: 400;
 }
