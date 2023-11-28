@@ -97,13 +97,15 @@
         <!-- Icon Boxes -->
         <div class="icon-boxes">
             <div class="service">
-                <button>
+                <button class="triagem-js">
                     <i class="fa-solid fa-file-medical"></i>
                     <p class="title">Triagem</p>
                     <br>
                     <p>Passe por uma triagem antes mesmo de chegar ao hospital.</p>
                 </button>
             </div>
+            
+            
             <div class="calendar">
                 <button>
                     <i class="fa-solid fa-calendar-plus"></i>
@@ -136,6 +138,22 @@
         <p>Lívia Mariana - 552558</p>
         <p>Luana Vieira - 552994</p>
     </footer>
+    
+ 
     <script src="script/index.js"></script>
+    <script src="script/triagem.js"></script>
+
+    <dialog class="dialog-triagem">
+                     <form action="">
+        <title>Sistema de pré-triagem</title>
+       <label for="sintomas">Sintomas:</label>
+       <textarea  name="" id="sintomas" cols="30" rows="10"></textarea>
+       <label for="medicamentos">Tomou algum medicamento?</label>
+       <textarea name="" id="medicamentos" cols="30" rows="10"></textarea>
+       <button class="button-triagem">Enviar</button>
+      
+    </form>
+    </dialog>
+
   </body>
 </html>
