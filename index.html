@@ -100,13 +100,25 @@
             <p>Blog</p>
           </div>
           <!-- Reminders -->
-          <button class="reminder">
-            <div class="block">
-              <i class="fa-solid fa-lightbulb"></i>
-              <p class="title">Lista de Lembretes</p>
-            </div>
-            <p>Veja aqui seus lembretes</p>
-          </button>
+          <div class="reminder-box">
+            <button class="reminder" id="openLembrete">
+              <div class="block">
+                <i class="fa-solid fa-lightbulb"></i>
+                <p class="title">Lista de Lembretes</p>
+              </div>
+              <p>Veja aqui seus lembretes</p>
+            </button>
+            <dialog class="dialog-content reminder" id="modalLembrete">
+                <h2>Lista de lembretes</h2>
+                <div class="reminder-list">
+                  <input type="text" id="reminderInput" placeholder="Adicione um lembrete">
+                  <ul id="reminderItems"></ul>
+                </div>
+                <button id="closeLembrete">
+                  Fechar
+                </button>
+            </dialog>
+          </div>
         </div>
         <!-- Icon Boxes -->
         <div class="icon-boxes">
@@ -117,7 +129,7 @@
               <br />
               <p>Passe por uma triagem antes mesmo de chegar ao hospital.</p>
             </button>
-            <dialog class="triagem" id="modalTriagem">
+            <dialog class="dialog-content" id="modalTriagem">
               <title>Sistema de pré-triagem</title>
               <p>Pré-triagem</p>
                 <br>

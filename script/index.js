@@ -10,4 +10,55 @@ document.addEventListener("DOMContentLoaded", () => {
     closeTriagem.addEventListener('click', () => {
         modalTriagem.close();
     });
+
+    const openLembrete = document.getElementById('openLembrete');
+    const modalLembrete = document.getElementById('modalLembrete');
+    const closeLembrete = document.getElementById('closeLembrete');
+
+    openLembrete.addEventListener('click', () => {
+        modalLembrete.showModal();
+    });
+
+    closeLembrete.addEventListener('click', () => {
+        modalLembrete.close();
+    });
+
+    // Codigo do lembrete
+
+    const reminderInput = document.getElementById('reminderInput');
+    const reminderItems = document.getElementById('reminderItems');
+
+    // Funcao para adicionar item
+
+    function addReminderItem() {
+        const reminderValue = reminderInput.value;
+        if (reminderValue != ''){
+            const reminder = document.createElement('li');
+            reminder.className = 'reminderItem';
+            reminder.innerHTML = `
+            <p>${reminderValue}</p>
+            <button class="delete" onclick="deleteReminderItem(this)">Deletar</button>
+            `;
+            reminderItems.append(reminder);
+            reminderInput.value = '';
+        }
+    }
+
+    // Deletar
+
+    window.deleteReminderItem = function(element) {
+        const reminder = element.closest('.reminderItem');
+        reminderItems.removeChild(reminder);
+      };
+
+
+    // Esperando pelo evento
+
+    reminderInput.addEventListener('keypress', function(e) {
+        if (e.key === "Enter"){
+            addReminderItem();
+        }
+    })
+
+
 });
