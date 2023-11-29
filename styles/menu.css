@@ -6,6 +6,20 @@
     width: max-content;
 }
 
+.menu-bar {
+    display: none;
+    height: max-content;
+    background-color: #0063AF;
+    position: absolute;
+    padding: 10px;
+}
+
+
+.menu-bar i{
+    font-size: 2em;
+    width: 100%;
+}
+
 .menu button {
     padding: 1.5em;
     height: 5em;
@@ -25,3 +39,27 @@
 .menu button:hover {
     background-color: rgb(0, 82, 175);
 }
+
+@media (max-width: 950px) {
+    .menu button {
+        width: 13em;
+    }
+}
+
+@media (max-width: 620px) {
+    .menu button {
+        width: 11em;
+        font-size: 0.8em;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 620px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-bar{
+        display: block;
+    }
+}  

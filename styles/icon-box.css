@@ -10,25 +10,138 @@
     height: 14em;
     border-radius: 15px;
     border: 1px solid rgb(120, 120, 120);
-    border-radius: 15px;
     box-shadow: 2px 2px 4px 0px rgba(191, 191, 191, 1);
     background-color: #0063AF;
-    color: white;
-    padding: 2em;
+    color: white;   
 }
 
 .icon-boxes i {
     font-size: 3em;
 }
 
-p.title {
+button p.title {
     font-size: 1.5em;
+    margin: 0 0 5px 0;
+    padding: 0;
 }
 
 .icon-boxes p {
     font-weight: 300;
+    width: 100%
 }
 
-.icon-boxes p {
-    padding: 0 15px 0 15px;
+
+@media (max-width: 1380px) {
+    .icon-boxes button {
+        width: 16em;
+        height: 12em;
+    }
+    .icon-boxes i {
+        font-size: 2.5em;
+    }
+    
+    button p.title{
+        font-size: 1.3em;
+    }
+    
+    .icon-boxes p {
+        font-weight: 400;
+    }
+    
+    .icon-boxes p {
+        padding: 0 10px 0 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .icon-boxes button {
+        width: 14em;
+        height: 12em;
+        padding: 1.5em;
+    }
+    .icon-boxes i {
+        font-size: 2.5em;
+    }
+    
+    button p.title{
+        font-size: 1.3em;
+    }
+    
+    .icon-boxes p {
+        font-weight: 400;
+    }
+    
+    .icon-boxes p {
+        padding: 0 10px 0 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .icon-boxes button {
+        width: 12em;
+        height: 10em;
+        padding: 1.5em;
+    }
+    .icon-boxes i {
+        font-size: 1.8em;
+    }
+    
+    button p.title{
+        font-size: 1.2em;
+    }
+    
+    .icon-boxes p { 
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 950px){
+    .icon-boxes button {
+        width: 10.8em;
+        height: 9em;
+        padding: 1.5em;
+    }
+    
+    button p.title{
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+    
+    .icon-boxes p { 
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 880px) {
+    .icon-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .r {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-boxes button {
+        width: 100%;
+        height: 10em;
+        margin-bottom: 2em;   
+    }
+    
+    .icon-boxes i {
+        font-size: 2.5em;
+    }
+    
+    button p.title {
+        font-size: 1.5em;
+    }
+    
+    .icon-boxes p {
+        font-weight: 400;
+        font-size: 15px;
+    }
 }

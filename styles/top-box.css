@@ -58,3 +58,31 @@
 .emergency p {
     font-weight: 400;
 }
+
+@media (max-width: 850px) {
+    .top-boxes {
+        flex-direction: column;
+    }
+    .profile {
+        width: 98%;
+        height: 9em;
+    }
+
+    .emergency {
+        width: 100%;
+        margin: 1em 0 0 0;
+        font-size: 1.4em;
+        padding: 1em;
+    }
+    
+    .emergency p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 620px) {
+    .profile {
+        margin-top: 3em;
+    }
+}
