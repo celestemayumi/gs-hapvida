@@ -76,7 +76,7 @@ dialog::backdrop{
     display: flex;
     box-sizing: border-box;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 @media(max-width:790px) {
