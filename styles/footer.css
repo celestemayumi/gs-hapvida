@@ -5,3 +5,17 @@ footer {
     padding: 10px;
     bottom: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
+#team {
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+    background-color:#0063AF ;
+    border-radius: 25px;
+    font-weight: 700;
+}

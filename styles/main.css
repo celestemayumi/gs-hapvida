@@ -56,3 +56,17 @@ dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.team-card {
+    margin: auto 5em;
+}
+
+.team-box {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.team-box tr {
+    display: flex;
+    justify-content: space-between;
+}
