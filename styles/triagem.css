@@ -6,11 +6,13 @@
 
 #closeTriagem {
     width: 100px;
-    height: 10px;
+    height: 30px;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 textarea {

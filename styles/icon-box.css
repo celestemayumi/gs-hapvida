@@ -13,6 +13,7 @@
     box-shadow: 2px 2px 4px 0px rgba(191, 191, 191, 1);
     background-color: #0063AF;
     color: white;   
+    cursor: pointer;
 }
 
 .icon-boxes i {
