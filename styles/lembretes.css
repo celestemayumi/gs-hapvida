@@ -12,13 +12,11 @@
     margin: 15px 0 15px 0;
 }
 
-.reminder ul {
-    display: flex;
-}
 
 .reminder li {
     list-style: none;
     display: flex;
+    color: black;
 }
 
 #closeLembrete {
@@ -32,4 +30,25 @@
     background-color: #0063AF;
     color:white;
     font-size: 15px;
+}
+
+#btnDelete {
+    width: 5rem;
+    height: 2rem;
+    background-color: #0063AF;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid rgb(163, 163, 163);
+    display: flex ;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
 }

@@ -12,3 +12,24 @@
     justify-content: center;
     display: flex;
 }
+
+textarea {
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+textarea:focus{
+    outline: 1px solid rgb(140, 163, 194)
+}
+
+@media(max-width:800px){
+    .dialog-content {
+        max-width: 60%;
+    }
+
+
+}

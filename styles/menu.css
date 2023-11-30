@@ -18,6 +18,7 @@
 .menu-bar i{
     font-size: 2em;
     width: 100%;
+    color: white
 }
 
 .menu button {
@@ -61,5 +62,8 @@
 
     .menu-bar{
         display: block;
+        width: 100%;
+        box-sizing: border-box;
     }
+
 }  

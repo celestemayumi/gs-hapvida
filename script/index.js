@@ -36,8 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const reminder = document.createElement('li');
             reminder.className = 'reminderItem';
             reminder.innerHTML = `
+            <div class="text-box">
             <p>${reminderValue}</p>
-            <button class="delete" onclick="deleteReminderItem(this)">Deletar</button>
+            <button id="btnDelete" class="delete" onclick="deleteReminderItem(this)">Deletar</button>
+            </div>
             `;
             reminderItems.append(reminder);
             reminderInput.value = '';

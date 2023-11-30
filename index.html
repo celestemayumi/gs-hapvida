@@ -111,11 +111,12 @@
               </div>
               <p>Veja aqui seus lembretes</p>
             </button>
+            <!-- Reminder Box -->
             <dialog class="dialog-content reminder" id="modalLembrete">
                 <h2>Lista de lembretes</h2>
                 <div class="reminder-list">
                   <input type="text" id="reminderInput" placeholder="Adicione um lembrete">
-                  <ul id="reminderItems"></ul>
+                  <ul id="reminderItems" class="reminder-items"></ul>
                 </div>
                 <button id="closeLembrete">
                   Fechar
@@ -138,11 +139,11 @@
                 <br>
                 <label for="sintomas">Sintomas:</label>
                 <br>
-                <textarea  name="" id="sintomas" cols="100" rows="3"></textarea>
+                <textarea  name="" id="sintomas"></textarea>
                 <br>
                 <label for="medicamentos">Tomou algum medicamento?</label>
                 <br>
-                <textarea name="" id="medicamentos" cols="100" rows="3"></textarea>
+                <textarea name="" id="medicamentos" ></textarea>
                 <br>
                 <button id="closeTriagem">
                   Enviar
