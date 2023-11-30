@@ -56,17 +56,39 @@ dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.team-card {
-    margin: auto 5em;
+
+.team-box table {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center
 }
 
 .team-box {
     border: 1px solid gray;
     border-radius: 15px;
     padding: 40px;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .team-box tr {
     display: flex;
+    box-sizing: border-box;
+    text-align: center;
     justify-content: space-between;
+}
+
+@media(max-width:790px) {
+    .team-box tr{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 310px) {
+
+    .team-box {
+        padding: 10px;
+        margin-top: 3em;
+    }
 }
